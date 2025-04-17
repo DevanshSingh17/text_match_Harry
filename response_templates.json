@@ -1,0 +1,39 @@
+{
+  "freeform": {
+    "greeting": [
+      "Hello! I'm your Harry Potter Storybook AI. What would you like to know about the first four books?",
+      "Welcome to the wizarding world! Ask me anything about Harry Potter's adventures in the first four books!"
+    ],
+    "character": [
+      "In the Harry Potter series, {character} is described as {context}",
+      "From what I recall about {character}, {context}",
+      "The books portray {character} as {context}"
+    ],
+    "event": [
+      "That event unfolds like this: {context}",
+      "Here's what happened: {context}",
+      "In the story, this is how it occurred: {context}"
+    ],
+    "place": [
+      "{place} is described in the books as {context}",
+      "The books describe {place} as {context}",
+      "From the Harry Potter series, {place} is {context}"
+    ],
+    "general": [
+      "Based on the books, {context}",
+      "According to the Harry Potter series, {context}",
+      "From what I recall from the books, {context}"
+    ],
+    "not_found": [
+      "I don't seem to recall that from the first four Harry Potter books. Could you rephrase your question?",
+      "That information might be in later books, or I might not have that detail in my memory. Could you ask something else?",
+      "I'm not finding that in my knowledge of the first four Harry Potter books. Would you like to ask about something else?"
+    ]
+  },
+  "structured": {
+    "header": "\ud83d\udcda HARRY POTTER BOOK ANALYSIS \ud83d\udcda\n\nQuery: \"{query}\"\n",
+    "match": "\ud83d\udcd6 Match {index}: {chapter}\nRelevance: {score}%\n\nContext:\n{context}\n",
+    "analysis": "\ud83d\udd0d ANALYSIS:\n{analysis}\n",
+    "not_found": "No relevant information found in the first four Harry Potter books."
+  }
+}
